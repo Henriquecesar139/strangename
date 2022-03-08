@@ -68,14 +68,26 @@ a {
 #top {
     font-family: top;
     color: white;
-    font-size: 300%;
-    margin-bottom: -1%;
+    font-size: 350%;
+    word-spacing: -5px;
+    margin-left: 2%;
+    margin-bottom: -20%;
 }
 
 #bottom {
     font-family: bottom;
     color: red;
-    font-size: 300%;
-    margin-top: 1%;
+    font-size: 250%;
+    margin-top: 30%;
+    margin-left: 2%;
 }
 
+#text {
+    margin-left: 10%;
+    width: 80%;
+    background-image: url('img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: absolute;
+}
