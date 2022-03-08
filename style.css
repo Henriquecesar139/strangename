@@ -90,4 +90,5 @@ a {
     background-position: center center;
     background-size: 100%;
     position: absolute;
+    display: none;
 }
