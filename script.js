@@ -7,6 +7,7 @@ function generate() {
 }
 
 function photo() {
+    document.getElementById('text').style.display = "block"
     html2canvas(document.querySelector("#text")).then(canvas => {
     document.body.appendChild(canvas)
 
